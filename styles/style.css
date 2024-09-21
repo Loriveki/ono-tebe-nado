@@ -7,7 +7,7 @@
   align-items: center;
   grid-gap: 20px;
   margin: 92px 24px;
-  font-size: 1.125rem; 
+  font-size: 1.125rem;
 }
 
 /* Стили для меню */
@@ -42,7 +42,7 @@
 
 /* Стили для логотипа */
 .header__logo {
-  justify-self: center; 
+  justify-self: center;
 }
 
 .header__logo-image {
@@ -83,7 +83,7 @@
   position: relative;
   z-index: 2;
   display: flex;
-  flex-direction: column; 
+  flex-direction: column;
   justify-content: flex-end;
   font-weight: 700;
   font-size: 100px;
@@ -101,19 +101,19 @@
 }
 
 .aligned-text_left {
-  align-self: flex-start; 
+  align-self: flex-start;
   margin-bottom: 27px;
   padding: 0 30px;
 }
 
 .aligned-text_center {
-  align-self: center; 
+  align-self: center;
   margin-bottom: 20px;
   margin-right: -3px;
 }
 
 .aligned-text_right {
-  align-self: flex-end; 
+  align-self: flex-end;
   margin-bottom: 80px;
 }
 
@@ -197,15 +197,15 @@
 }
 
 .card_type_film {
-  background-image: url("/images/card-lot-01.jpg");
+  background-image: url("../images/card-lot-01.jpg");
 }
 
 .card_type_book {
-  background-image: url("/images/card-lot-02.jpg");
+  background-image: url("../images/card-lot-02.jpg");
 }
 
 .card_type_picture {
-  background-image: url("/images/card-lot-03.jpg");
+  background-image: url("../images/card-lot-03.jpg");
 }
 
 .card__title {
@@ -296,6 +296,7 @@
   margin-top: 124px;
   font-size: 18px;
   align-items: flex-start;
+  margin-bottom: 35px;
 }
 
 .footer__address {
