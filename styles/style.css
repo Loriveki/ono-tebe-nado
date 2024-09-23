@@ -5,7 +5,7 @@
   display: grid;
   grid-template-columns: 1fr auto 1fr;
   align-items: center;
-  padding: 92px 51px;
+  padding: 91px 51px;
 }
 
 /* Стили для меню */
@@ -48,7 +48,7 @@
 }
 
 .header__logo-image {
-  height: 105px;
+  height: 107px;
 }
 
 /* Стили для блока с адресом */
@@ -122,7 +122,7 @@
 
 .aligned-text_right {
   align-self: flex-end;
-  margin-bottom: 72px;
+  margin-bottom: 70px;
 }
 
 /* Управление расстоянием между буквами */
@@ -151,14 +151,17 @@
 
 .bet-button {
   background-color: transparent;
+  font-family: inherit;
   border: 1px solid white;
   color: white;
+  font-weight: 500;
   padding: 12px 32px;
   cursor: pointer;
   font-size: 22px;
+  line-height: 26px;
   text-transform: uppercase;
   margin-top: 20px;
-  font-family: inherit;
+  
 }
 
 /* Секция с карточками */
@@ -172,7 +175,7 @@
   text-transform: uppercase;
   font-weight: 700;
   line-height: 1.2;
-  padding: 47px 65px 7px;
+  padding: 49px 65px 7px;
 }
 
 .lots__card-list {
@@ -184,7 +187,6 @@
 }
 
 .lots__card-list-item {
-  flex-grow: 1 1 334px;
   max-width: 334px;
   min-height: 563px;
 }
@@ -222,7 +224,7 @@
   font-size: 22px;
   color: white;
   z-index: 2;
-  padding: 31px 21px 0;
+  padding: 30px 21px 0;
   font-weight: 700;
   line-height: 1.2;
   text-transform: uppercase;
@@ -255,7 +257,7 @@
 /* Секция "Об аукционе" */
 .about {
   display: flex;
-  margin-top: 146px;
+  margin-top: 145px;
   padding: 5px 20px;
 }
 
@@ -278,7 +280,6 @@
   font-weight: 700;
   font-size: 40px;
   line-height: 47px;
-  margin-bottom: 100px;
   text-align: left;
   text-transform: uppercase;
   margin: 101px 21px;
@@ -300,7 +301,7 @@
 
 /* Футер */
 .footer {
-  padding: 52px 50px;
+  padding: 53px 50px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
