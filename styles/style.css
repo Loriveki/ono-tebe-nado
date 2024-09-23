@@ -151,7 +151,7 @@
 
 .bet-button {
   background-color: transparent;
-  font-family: inherit;
+  font-family: Raleway, sans-serif;;
   border: 1px solid white;
   color: white;
   font-weight: 500;
@@ -161,7 +161,6 @@
   line-height: 26px;
   text-transform: uppercase;
   margin-top: 20px;
-  
 }
 
 /* Секция с карточками */
