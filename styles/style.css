@@ -116,13 +116,12 @@
 
 .aligned-text_center {
   align-self: center;
-  margin-bottom: 20px;
-  padding-left: 3px;
+  margin: 50px 20px;
 }
 
 .aligned-text_right {
   align-self: flex-end;
-  margin-bottom: 70px;
+  margin: 20px 0 71px;
 }
 
 /* Управление расстоянием между буквами */
